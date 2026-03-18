@@ -1,1 +1,0 @@
-# SwiftX_Guard
