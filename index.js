@@ -1,9 +1,9 @@
 const { Client, GatewayIntentBits, Partials, EmbedBuilder, PermissionFlagsBits, Events, Collection } = require(‘discord.js’);
 
 const TOKEN = process.env.TOKEN;
-const CLIENT_ID = ‘1483855827046629448’;
+const CLIENT_ID = process.env.CLIENT_ID || ‘1483855827046629448’;
 const LOG_CHANNEL = process.env.LOG_CHANNEL || ‘’;
-const PREFIX = ‘;’;
+const PREFIX = ‘!’;
 const ACCENT = 0x0055FF;
 const DANGER = 0xFF3030;
 const SUCCESS = 0x00DD66;
